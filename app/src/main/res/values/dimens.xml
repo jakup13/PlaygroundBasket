@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="shadow_dx">-3</dimen>
+    <dimen name="shadow_dy">3</dimen>
+    <dimen name="shadow_rad">10</dimen>
+    <dimen name="title_text_size">34sp</dimen>
+    <dimen name="team_marg_left">30dp</dimen>
+    <dimen name="team_marg_right">50dp</dimen>
+    <dimen name="team_name_size">24sp</dimen>
+    <dimen name="score_value_b">52sp</dimen>
+    <dimen name="score_value_a">52sp</dimen>
+    <dimen name="ver_space1">5dp</dimen>
+    <dimen name="team_name_size_2">16sp</dimen>
+</resources>

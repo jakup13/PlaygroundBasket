@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Playground Basket</string>
+    <string name="app_title">Playground Basket</string>
+    <string name="team_b_name">Team B</string>
+    <string name="team_a_name">Team A</string>
+    <string name="score_value_ta">0</string>
+    <string name="score_value_tb">0</string>
+    <string name="two_pts_btn_desc">2 points shot button</string>
+    <string name="three_pts_btn_desc">3 points shot button</string>
+    <string name="one_pts_btn_desc">1 point shot button</string>
+    <string name="two_pts_shot">Two Points Shot</string>
+    <string name="three_pts_shot">Three Points Shot</string>
+    <string name="one_pt_shot">Free Throw</string>
+    <string name="stats">Stats</string>
+    <string name="stat_2_initial">0</string>
+    <string name="stat_3_initial">0</string>
+    <string name="stat_1_initial">0</string>
+    <string name="stats_2_img_desc">Stats 2</string>
+    <string name="stats_3_img_desc">Stats 3</string>
+    <string name="stats_1_img_desc">Stats 1</string>
+    <string name="reset_btn_text">Play again</string>
+</resources>
