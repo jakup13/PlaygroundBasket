@@ -1,7 +1,6 @@
 package com.example.android.playgroundbasket;
 
 import android.os.Bundle;
-import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
@@ -28,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_main);
     }
+
     /**
      * This method is called when the 2 button team A is clicked.
      */
@@ -67,18 +67,27 @@ public class MainActivity extends AppCompatActivity {
         teamAscoreTextView.setText(String.valueOf(score));
     }
 
+    /**
+     * Displays the two points shots stats - Team A
+     */
     private void displayStatsTwoA(int score) {
         TextView teamAscoreStatsView = (TextView) findViewById(
                 R.id.teamAstatsTwo);
         teamAscoreStatsView.setText(String.valueOf(score));
     }
 
+    /**
+     * Displays the three points shots stats - Team A
+     */
     private void displayStatsThreeA(int score) {
         TextView teamAscoreStatsView = (TextView) findViewById(
                 R.id.teamAstatsThree);
         teamAscoreStatsView.setText(String.valueOf(score));
     }
 
+    /**
+     * Displays the one point shots stats - Team A
+     */
     private void displayStatsOneA(int score) {
         TextView teamAscoreStatsView = (TextView) findViewById(
                 R.id.teamAstatsOne);
@@ -124,18 +133,27 @@ public class MainActivity extends AppCompatActivity {
         teamBscoreTextView.setText(String.valueOf(score));
     }
 
+    /**
+     * Displays the two points shots stats - Team B
+     */
     private void displayStatsTwoB(int score) {
         TextView teamBscoreStatsView = (TextView) findViewById(
                 R.id.teamBstatsTwo);
         teamBscoreStatsView.setText(String.valueOf(score));
     }
 
+    /**
+     * Displays the three points shots stats - Team B
+     */
     private void displayStatsThreeB(int score) {
         TextView teamBscoreStatsView = (TextView) findViewById(
                 R.id.teamBstatsThree);
         teamBscoreStatsView.setText(String.valueOf(score));
     }
 
+    /**
+     * Displays the one point shots stats - Team B
+     */
     private void displayStatsOneB(int score) {
         TextView teamBscoreStatsView = (TextView) findViewById(
                 R.id.teamBstatsOne);
